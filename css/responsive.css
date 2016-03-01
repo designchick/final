@@ -1,0 +1,129 @@
+
+/*// Responsive SMALLER //*/
+@media (max-width: 1160px) {
+.intro {
+	margin-left: 50px;
+	margin-right: 50px;
+	padding-top: 50px;
+}
+
+.workfolio {
+	padding: 50px;
+}
+
+img .workfolio {
+	width: 400px;
+}
+
+.thumbimage {
+	float: left;
+	height: 0 auto;
+	width: 100%;
+	padding: 0px;
+}
+
+.thumbdesc {
+	float: right;
+	height: 0 auto;
+	width: 100%;
+	padding: 0px;
+}
+
+
+/*// Responsive MOBILE //*/
+
+
+@media (max-width: 500px) {
+	header {
+		height: 600px;
+	}
+
+	.hello h1 {
+		font-size: 3.5em;
+		padding-top: 60px;
+		line-height: 80px;
+	}
+
+	.hello {
+		margin-left: 50px;
+		line-height: 26px;
+	}	
+
+	.intro {
+		margin-left: 50px;
+		margin-right: 50px;
+		padding-top: 75px;
+	}
+
+	.quote {
+		margin-left: auto;
+		margin-right: auto;
+		padding:  75px 20px 20px;
+		padding-bottom: 75px;
+	}
+
+	.contact {
+	height: 564px;
+	margin-top: 75px;
+	padding-top: 75px;
+	margin-bottom: 150px;
+}
+
+.workfolio {
+	padding: 50px;
+	width: 100%;
+}
+
+img.officeforipad1 {
+	width: 320px;
+}
+
+img.officeformac2016 {
+	width: 320px;
+}
+
+.eventdesign {
+	height: 600px;
+}
+
+/*.thumbimage {
+	display: none;
+}*/
+
+.thumbdesc {
+	width: 100%;
+}
+
+
+.thumbsketch1 {
+	height: 150px;
+}
+
+.thumbsketch2 {
+	height: 150px;
+
+}
+
+.thumbsketch3 {
+	height: 150px;
+}
+
+
+.thumbhandgrafted1 {
+	height: 150px;
+	width: 33.33%;
+}
+
+.thumbhandgrafted2 {
+		height: 150px;
+	width: 33.33%;
+}
+
+.thumbhandgrafted3 {
+		height: 150px;
+	width: 33.33%;
+}
+
+
+}
+

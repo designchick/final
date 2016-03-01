@@ -1,0 +1,425 @@
+.fadeInBlock {
+    opacity:0;
+}
+
+body {
+	width: 0 auto;
+	margin: 0 auto;	
+	color: #665555;
+}
+
+header {
+	clear: both;
+	text-align: center;
+	min-width: 320px;
+	width: 100%;
+	background: url(../images/helloiamjamie_bkg.png) no-repeat center;
+	height: 100vh;
+	background-size: cover;
+}
+
+.headertranslator {
+	clear: both;
+	text-align: center;
+	min-width: 320px;
+	width: 100%;
+	background: url(../images/helloiamjamie_translatorheader.png) no-repeat center;
+	height: 100vh;
+	background-size: cover;
+}
+
+.hello h1 {
+	font-family: "lust-didone",sans-serif;
+	color: white;
+	font-size: 147px;
+	padding-top: 125px;
+	font-weight: 400;
+	letter-spacing: -4px;
+	line-height: 150px;
+
+}
+
+.hello {
+	font-family: 'Quicksand', sans-serif;
+	color: white;
+	text-align: left;
+	margin-left: 88px;
+	font-size: 26px;
+	line-height: 26px;
+}
+
+.nav {
+	padding-top: 15px;
+}
+
+
+.nav li{ 
+	display: inline;
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif; 
+	font-weight: 300;
+	color: white;
+	font-size: 14px;
+	letter-spacing: 0.25px;
+	margin: 30px;
+}
+
+.mobile-nav{
+	position:fixed;
+	top:0px;
+	width:100%;
+	letter-spacing: 0.25px;
+	background-color: rgba(0, 0, 0, 0.7);
+	z-index:9999;
+	display: none;
+	padding-bottom: 15px; 
+}
+
+a {
+	text-decoration: none;
+}
+
+/* NAV LINKS */
+.nav a:link {
+    color: white;
+    opacity: 0.6;
+}
+
+/* visited link */
+.nav a:visited {
+    color: white;
+    opacity: 0.6;
+
+}
+
+/* mouse over link */
+.nav a:hover {
+    color: white;
+    opacity: 1;
+}
+
+/* selected link */
+.nav a:active {
+    color: white;
+    opacity: 1;
+
+}
+
+/* LINKS */
+a:link {
+    color: #00ccff;
+}
+
+a:visited {
+    color: #00ccff;
+}
+
+a:hover {
+    color: #0099cc;
+}
+
+a:active {
+    color: #0099cc;
+
+}
+
+a img {
+	opacity: 0.5;
+}
+
+a:hover img {
+	opacity: 1;
+	transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+
+.intro {
+	height: 0 auto;
+	background-color: white;
+	border: none;
+	min-width: 320px;
+	margin-left: 150px;
+	margin-right: 150px;
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+
+.grouptitle {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bolder;
+	font-size: 30px;
+	text-align: center;
+	letter-spacing: -0.75px;
+}
+
+hr {
+	width: 80px;
+	color: #969696;
+	border-bottom: none;
+
+}
+
+h2 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	text-align: center;
+}
+
+
+h3 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+}
+
+p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	line-height: 1.7;
+	font-size: 18px;
+}
+
+p2 {
+	font-family: 'Source Sans Pro', sans-serif;
+	line-height: 1.5;
+	font-size: 20px;
+}
+
+
+.workfolio {
+	display: block;
+	height: 0 auto;
+	background-color: white;
+	border: 1px solid #e3e3e3;
+	margin: 0 auto; 
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+
+img.officeforipad1 {
+	width: 700px;
+}
+
+img.onenoteiphone {
+	height: 400px;
+}
+
+img.translator {
+	width: 350px;
+}
+
+img.officeformac2016 {
+	width: 800px;
+}
+
+.thumbimage {
+	float: left;
+	height: 0 auto;
+	width: 60%;
+	padding: 40px;
+}
+
+.thumbdesc {
+	float: right;
+	height: 0 auto;
+	width: 40%;
+	padding: 75px;
+}
+
+
+.quote {
+	height: 0 auto;
+	background-color: #282520;
+	color: white;
+	border: none;
+	min-width: 320px;
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+
+.eventdesign {
+	height: 800px;
+	padding-top: 75px;
+	color: white;
+	background: gray;
+	border: none;
+	min-width: 320px;
+	width: 100%;
+	background: url(../images/helloiamjamie_eventdesign_2.jpg) no-repeat center;
+	background-size: cover;
+	height: 100vh;
+	text-align: left;
+	padding-left: 100px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+}
+
+
+.art {
+	background-color: white;
+	border: 1px solid #e3e3e3;
+	padding-top: 75px;
+	padding-bottom: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.thumbnailsketches{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 300px;
+	width: 400px;
+}
+
+img.thumbhandgrafted{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 300px;
+	width: 400px;
+}
+
+/*
+.thumbnailsketches {
+	height: 300px;
+	width: 400px;
+	border: 10px solid #F3F3F3;
+	background: url(../images/portfolio/draw/drawing2.jpg) no-repeat center;
+	background-size: cover;
+	float: left;
+}
+
+.thumbhandgrafted {
+	height: 300px;
+	width: 400px;
+	background: url(../images/portfolio/handgrafted/etsy_handgrafted_1.jpg) no-repeat;
+	background-size: cover;
+	float: right;
+	float: left;
+	border: 10px solid white;
+}
+*/
+
+.contact {
+	background: url(../images/line.png) no-repeat;
+	background-size: 100%;
+	width: 0 auto;
+	height: 564px;
+	border: none;
+	margin-top: 75px;
+	padding-top: 75px;
+	margin-bottom: 150px;
+}
+
+.contact h2 {
+	text-align: center;
+
+}
+
+form {
+    /* Just to center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    /* To see the outline of the form */
+    padding: 1em;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    /* To make sure that all labels have the same size and are properly aligned */
+    display: inline-block;
+    width: 400px;
+    text-align: left;
+    margin-bottom: 8px;
+ 	font-family: 'Roboto', sans-serif;
+ 	font-weight: 300;
+	line-height: 1.5;
+	font-size: 18px;
+}
+
+input, textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em 'roboto', sans-serif;
+
+    /* To give the same size to all text field */
+    width: 400px;
+    height: 34px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 3px;
+
+    /* To harmonize the look & feel of text field border */
+    border: 1px solid #999;
+    padding: 10px;
+
+}
+
+input:focus, textarea:focus {
+    /* To give a little highlight on active elements */
+    border-color: #000;
+}
+
+textarea {
+    /* To properly align multiline text fields with their labels */
+    vertical-align: top;
+
+    /* To give enough room to type some text */
+    height: 10em;
+
+    /* To allow users to resize any textarea vertically
+       It does not work on every browsers */
+    resize: vertical;
+    padding: 10px;
+}
+
+
+button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    padding: 10px 20px 10px 20px;
+    color: white;
+    width: 0 auto;
+    border-radius: 3px;
+    background-color: #333;
+    border: none;
+	font-family: 'Source Sans Pro', sans-serif;
+	line-height: 1.5;
+	font-size: 15px;
+}
+
+.social {
+	background-color: white;
+	margin: 10px;
+	margin-top: 75px;
+	margin-bottom: 30px;
+}
+
+.social a:link {
+    opacity: 1.0;
+}
+
+
+footer a:link {
+    color: white;
+    opacity: 1.0;
+}
+
+
+footer {
+	background-color: #333;
+	width: 0 auto;
+	height: 60px;
+	color: white;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 13px;
+	text-align: right;
+	padding-top: 20px; 
+	padding-right: 30px;
+}
